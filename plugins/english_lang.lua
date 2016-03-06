@@ -242,102 +242,102 @@ local function run(msg, matches)
 		------------
 
 		-- bot.lua --
-		set_text(LANG, 'bot:0', 2)
-		set_text(LANG, 'bot:1', '#bot on: enable bot in current channel.')
-		set_text(LANG, 'bot:2', '#bot off: disable bot in current channel.')
+		set_text(LANG, '🔰bot:0', 2)
+		set_text(LANG, '🔰bot:1', 'bot on: enable bot in current channel.')
+		set_text(LANG, '🔰bot:2', 'bot off: disable bot in current channel.')
 
 		-- commands.lua --
 		set_text(LANG, 'commands:0', 2)
-		set_text(LANG, 'commands:1', '#commands: Show all commands for every plugin.')
-		set_text(LANG, 'commands:2', '#commands [plugin]: Commands for that plugin.')
+		set_text(LANG, 'commands:1', '🔰commands: Show all commands for every plugin.')
+		set_text(LANG, 'commands:2', '🔰commands [plugin]: Commands for that plugin.')
 
 		-- export_gban.lua --
 		set_text(LANG, 'export_gban:0', 2)
-		set_text(LANG, 'export_gban:1', '#gbans installer: Return a lua file installer to share gbans and add those in another bot in just one command.')
-		set_text(LANG, 'export_gban:2', '#gbans list: Return an archive with a list of gbans.')
+		set_text(LANG, 'export_gban:1', '🔰gbans installer: Return a lua file installer to share gbans and add those in another bot in just one command.')
+		set_text(LANG, 'export_gban:2', '🔰gbans list: Return an archive with a list of gbans.')
 
 		-- gban_installer.lua --
 		set_text(LANG, 'gban_installer:0', 1)
-		set_text(LANG, 'gban_installer:1', '#install gbans: add a list of gbans into your redis db.')
+		set_text(LANG, 'gban_installer:1', '🔰install gbans: add a list of gbans into your redis db.')
 
 		-- giverank.lua --
 		set_text(LANG, 'giverank:0', 9)
-		set_text(LANG, 'giverank:1', '#rank admin (reply): add admin by reply.')
-		set_text(LANG, 'giverank:2', '#rank admin <user_id>/<user_name>: add admin by user ID/Username.')
-		set_text(LANG, 'giverank:3', '#rank mod (reply): add mod by reply.')
-		set_text(LANG, 'giverank:4', '#rank mod <user_id>/<user_name>: add mod by user ID/Username.')
-		set_text(LANG, 'giverank:5', '#rank guest (reply): remove admin by reply.')
-		set_text(LANG, 'giverank:6', '#rank guest <user_id>/<user_name>: remove admin by user ID/Username.')
-		set_text(LANG, 'giverank:7', '#admins: list of all admin members.')
-		set_text(LANG, 'giverank:8', '#mods: list of all mod members.')
-		set_text(LANG, 'giverank:9', '#members: list of all channel members.')
+		set_text(LANG, 'giverank:1', '🔰rank admin (reply): add admin by reply.')
+		set_text(LANG, 'giverank:2', '🔰rank admin <user_id>/<user_name>: add admin by user ID/Username.')
+		set_text(LANG, 'giverank:3', '🔰rank mod (reply): add mod by reply.')
+		set_text(LANG, 'giverank:4', '🔰rank mod <user_id>/<user_name>: add mod by user ID/Username.')
+		set_text(LANG, 'giverank:5', '🔰rank guest (reply): remove admin by reply.')
+		set_text(LANG, 'giverank:6', '🔰rank guest <user_id>/<user_name>: remove admin by user ID/Username.')
+		set_text(LANG, 'giverank:7', '🔰admins: list of all admin members.')
+		set_text(LANG, 'giverank:8', '🔰mods: list of all mod members.')
+		set_text(LANG, 'giverank:9', '🔰members: list of all channel members.')
 
 		-- id.lua --
 		set_text(LANG, 'id:0', 6)
-		set_text(LANG, 'id:1', '#id: Return your ID and the chat id if you are in one.')
-		set_text(LANG, 'id:2', '#ids chat: Return the IDs of the current chat members.')
-		set_text(LANG, 'id:3', '#ids channel: Return the IDs of the current channel members.')
-		set_text(LANG, 'id:4', '#id <user_name>: Return the member username ID from the current chat.')
-		set_text(LANG, 'id:5', '#whois <user_id>/<user_name>: Return username.')
-		set_text(LANG, 'id:6', '#whois (reply): Return user id.')
+		set_text(LANG, 'id:1', '🔰id: Return your ID and the chat id if you are in one.')
+		set_text(LANG, 'id:2', '🔰ids chat: Return the IDs of the current chat members.')
+		set_text(LANG, 'id:3', '🔰ids channel: Return the IDs of the current channel members.')
+		set_text(LANG, 'id:4', '🔰id <user_name>: Return the member username ID from the current chat.')
+		set_text(LANG, 'id:5', '🔰whois <user_id>/<user_name>: Return username.')
+		set_text(LANG, 'id:6', '🔰whois (reply): Return user id.')
 
 		-- moderation.lua --
 		set_text(LANG, 'moderation:0', 18)
-		set_text(LANG, 'moderation:1', '#add: replying to a message, the user will be added to the current group/supergroup.')
-		set_text(LANG, 'moderation:2', '#add <id>/<username>: adds a user by its ID/Username to the current group/supergroup.')
-		set_text(LANG, 'moderation:3', '#kick: replying to a message, the user will be kicked in the current group/supergroup.')
-		set_text(LANG, 'moderation:4', '#kick <id>/<username>: the user will be kicked by its ID/Username in the current group/supergroup.')
-		set_text(LANG, 'moderation:5', '#kickme: kick yourself.')
-		set_text(LANG, 'moderation:6', '#ban: replying to a message, the user will be kicked and banned in the current group/supergroup.')
-		set_text(LANG, 'moderation:7', '#ban <id>/<username>: the user will be banned by its ID/Username in the current group/supergroup and it wont be able to return.')
-		set_text(LANG, 'moderation:8', '#unban: replying to a message, the user will be unbanned in the current group/supergroup.')
-		set_text(LANG, 'moderation:9', '#unban <id>/<username>: the user will be unbanned by its ID/Username in the current group/supergroup.')
-		set_text(LANG, 'moderation:10', '#gban: replying to a message, the user will be kicked and banned from all groups/supergroups.')
-		set_text(LANG, 'moderation:11', '#gban <id>/<username>: the user will be banned by its ID/Username from all groups/supergroups and it wont be able to enter.')
-		set_text(LANG, 'moderation:12', '#ungban: replying to a message, the user will be unbanned from all groups/supergroups.')
-		set_text(LANG, 'moderation:13', '#ungban <id>/<username>: the user will be unbanned by its ID/Username from all groups/supergroups.')
-		set_text(LANG, 'moderation:14', '#mute: replying to a message, the user will be silenced in the current supergroup, erasing all its messages.')
-		set_text(LANG, 'moderation:15', '#mute <id>/<username>: the user will be silenced by its ID/Username inthe current supergroup, erasing all its messages.')
-		set_text(LANG, 'moderation:16', '#unmute: replying to a message, the user will be unsilenced in the current supergroup.')
-		set_text(LANG, 'moderation:17', '#unmute <id>/<username>: the user will be unsilenced by its ID/Username in the current supergroup.')
-		set_text(LANG, 'moderation:18', '#rem: replying to a message, the message will be removed.')
+		set_text(LANG, 'moderation:1', '🔰add: replying to a message, the user will be added to the current group/supergroup.')
+		set_text(LANG, 'moderation:2', '🔰add <id>/<username>: adds a user by its ID/Username to the current group/supergroup.')
+		set_text(LANG, 'moderation:3', '🔰kick: replying to a message, the user will be kicked in the current group/supergroup.')
+		set_text(LANG, 'moderation:4', '🔰kick <id>/<username>: the user will be kicked by its ID/Username in the current group/supergroup.')
+		set_text(LANG, 'moderation:5', '🔰kickme: kick yourself.')
+		set_text(LANG, 'moderation:6', '🔰ban: replying to a message, the user will be kicked and banned in the current group/supergroup.')
+		set_text(LANG, 'moderation:7', '🔰ban <id>/<username>: the user will be banned by its ID/Username in the current group/supergroup and it wont be able to return.')
+		set_text(LANG, 'moderation:8', '🔰unban: replying to a message, the user will be unbanned in the current group/supergroup.')
+		set_text(LANG, 'moderation:9', '🔰unban <id>/<username>: the user will be unbanned by its ID/Username in the current group/supergroup.')
+		set_text(LANG, 'moderation:10', '🔰gban: replying to a message, the user will be kicked and banned from all groups/supergroups.')
+		set_text(LANG, 'moderation:11', '🔰gban <id>/<username>: the user will be banned by its ID/Username from all groups/supergroups and it wont be able to enter.')
+		set_text(LANG, 'moderation:12', '🔰ungban: replying to a message, the user will be unbanned from all groups/supergroups.')
+		set_text(LANG, 'moderation:13', '🔰ungban <id>/<username>: the user will be unbanned by its ID/Username from all groups/supergroups.')
+		set_text(LANG, 'moderation:14', '🔰mute: replying to a message, the user will be silenced in the current supergroup, erasing all its messages.')
+		set_text(LANG, 'moderation:15', '🔰mute <id>/<username>: the user will be silenced by its ID/Username inthe current supergroup, erasing all its messages.')
+		set_text(LANG, 'moderation:16', '🔰unmute: replying to a message, the user will be unsilenced in the current supergroup.')
+		set_text(LANG, 'moderation:17', '🔰unmute <id>/<username>: the user will be unsilenced by its ID/Username in the current supergroup.')
+		set_text(LANG, 'moderation:18', '🔰rem: replying to a message, the message will be removed.')
 		
 		-- settings.lua --
 	    set_text(LANG, 'settings:0', 19)
-	    set_text(LANG, 'settings:1', '#settings stickers enable/disable: when disabled, all stickers will be cleared.')
-	    set_text(LANG, 'settings:2', '#settings links enable/disable: when disabled, all links will be cleared.')
-	    set_text(LANG, 'settings:3', '#settings arabic enable/disabl: when disabled, all messages with arabic/persian will be cleared.')
-	    set_text(LANG, 'settings:4', '#settings bots enable/disable: when disabled, if someone adds a bot, it will be kicked.')
-	    set_text(LANG, 'settings:5', '#settings gifs enable/disable: when disabled, all gifs will be cleared.')
-	    set_text(LANG, 'settings:6', '#settings photos enable/disable: when disabled, all photos will be cleared.')
-	    set_text(LANG, 'settings:7', '#settings audios enable/disable: when disabled, all audios will be cleared.')
-	    set_text(LANG, 'settings:8', '#settings kickme enable/disable: when disabled, people can kick out itself.')
-	    set_text(LANG, 'settings:9', '#settings spam enable/disable: when disabled, all spam links will be cleared.')
-	    set_text(LANG, 'settings:10', '#settings setphoto enable/disable: when enabled, if a user changes the group photo, the bot will revert to the saved photo.')
-	    set_text(LANG, 'settings:11', '#settings setname enable/disable: when enabled, if a user changes the group name, the bot will revert to the saved name.')
-	    set_text(LANG, 'settings:12', '#settings lockmember enable/disable: when enabled, the bot will kick all people that enters to the group.')
-	    set_text(LANG, 'settings:13', '#settings floodtime <secs>: set the time that bot uses to check flood.')
-	    set_text(LANG, 'settings:14', '#settings maxflood <msgs>: set the maximum messages in a floodtime to be considered as flood.')
-	    set_text(LANG, 'settings:15', '#setname <group title>: the bot will change group title.')
-	    set_text(LANG, 'settings:16', '#setphoto <then send photo>: the bot will change group photo.')
-	    set_text(LANG, 'settings:17', '#lang <language (en, es...)>: it changes the language of the bot.')
-	    set_text(LANG, 'settings:18', '#setlink <link>: saves the link of the group.')
-	    set_text(LANG, 'settings:19', '#link: to get the link of the group.')
+	    set_text(LANG, 'settings:1', '🔰settings stickers enable/disable: when disabled, all stickers will be cleared.')
+	    set_text(LANG, 'settings:2', '🔰settings links enable/disable: when disabled, all links will be cleared.')
+	    set_text(LANG, 'settings:3', '🔰settings arabic enable/disabl: when disabled, all messages with arabic/persian will be cleared.')
+	    set_text(LANG, 'settings:4', '🔰settings bots enable/disable: when disabled, if someone adds a bot, it will be kicked.')
+	    set_text(LANG, 'settings:5', '🔰settings gifs enable/disable: when disabled, all gifs will be cleared.')
+	    set_text(LANG, 'settings:6', '🔰settings photos enable/disable: when disabled, all photos will be cleared.')
+	    set_text(LANG, 'settings:7', '🔰settings audios enable/disable: when disabled, all audios will be cleared.')
+	    set_text(LANG, 'settings:8', '🔰settings kickme enable/disable: when disabled, people can kick out itself.')
+	    set_text(LANG, 'settings:9', '🔰settings spam enable/disable: when disabled, all spam links will be cleared.')
+	    set_text(LANG, 'settings:10', '🔰settings setphoto enable/disable: when enabled, if a user changes the group photo, the bot will revert to the saved photo.')
+	    set_text(LANG, 'settings:11', '🔰settings setname enable/disable: when enabled, if a user changes the group name, the bot will revert to the saved name.')
+	    set_text(LANG, 'settings:12', '🔰settings lockmember enable/disable: when enabled, the bot will kick all people that enters to the group.')
+	    set_text(LANG, 'settings:13', '🔰settings floodtime <secs>: set the time that bot uses to check flood.')
+	    set_text(LANG, 'settings:14', '🔰settings maxflood <msgs>: set the maximum messages in a floodtime to be considered as flood.')
+	    set_text(LANG, 'settings:15', '🔰setname <group title>: the bot will change group title.')
+	    set_text(LANG, 'settings:16', '🔰setphoto <then send photo>: the bot will change group photo.')
+	    set_text(LANG, 'settings:17', '🔰lang <language (en, es...)>: it changes the language of the bot.')
+	    set_text(LANG, 'settings:18', '🔰setlink <link>: saves the link of the group.')
+	    set_text(LANG, 'settings:19', '🔰link: to get the link of the group.')
 
 		-- plugins.lua --
 		set_text(LANG, 'plugins:0', 4)
-		set_text(LANG, 'plugins:1', '#plugins: shows a list of all plugins.')
-		set_text(LANG, 'plugins:2', '#plugins <enable>/<disable> [plugin]: enable/disable the specified plugin.')
-		set_text(LANG, 'plugins:3', '#plugins <enable>/<disable> [plugin] chat: enable/disable the specified plugin, only in the current group/supergroup.')
-		set_text(LANG, 'plugins:4', '#plugins reload: reloads all plugins.')
+		set_text(LANG, 'plugins:1', '🔰plugins: shows a list of all plugins.')
+		set_text(LANG, 'plugins:2', '🔰plugins <enable>/<disable> [plugin]: enable/disable the specified plugin.')
+		set_text(LANG, 'plugins:3', '🔰plugins <enable>/<disable> [plugin] chat: enable/disable the specified plugin, only in the current group/supergroup.')
+		set_text(LANG, 'plugins:4', '🔰plugins reload: reloads all plugins.')
 
 		-- version.lua --
 		set_text(LANG, 'version:0', 1)
-		set_text(LANG, 'version:1', '#version: shows bot version.')
+		set_text(LANG, 'version:1', '🔰version: shows bot version.')
 
 		-- rules.lua --
 		set_text(LANG, 'rules:0', 1)
-		set_text(LANG, 'rules:1', '#rules: shows channel rules.')
+		set_text(LANG, 'rules:1', '🔰rules: shows channel rules.')
 
 		if matches[1] == 'install' then
 			return 'ℹ️ English was successfully installed on your bot.'
@@ -351,8 +351,8 @@ end
 
 return {
 	patterns = {
-		'#(install) (english_lang)$',
-		'#(update) (english_lang)$'
+		'(install) (english_lang)$',
+		'(update) (english_lang)$'
 	},
 	run = run
 }
