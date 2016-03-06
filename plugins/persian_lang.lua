@@ -329,7 +329,7 @@ local function run(msg, matches)
         set_text(LANG, 'plugins:1', '🔰plugins : لیست تمامی پلاگین هارا نشان می دهد.')
         set_text(LANG, 'plugins:2', '🔰plugins <enable>/<disable> [plugin] : فعال/غیرفعال کردن پلاگین مورد نظر')
         set_text(LANG, 'plugins:3', '🔰plugins <enable>/<disable> [plugin] chat : فعال ، غیر فعال کردن پلاگین مورد نظر در گروه و یا سوپرگروه کنونی')
-        set_text(LANG, 'plugins:4', 🔰plugins reload : بازنگری پلاگین ها.')
+        set_text(LANG, 'plugins:4', '🔰plugins reload :بازنگری پلاگین ها')
 
         -- version.lua --
         set_text(LANG, 'version:0', 1)
