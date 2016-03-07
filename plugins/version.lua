@@ -14,7 +14,7 @@
 do
 
 function run(msg, matches)
-  return '[[[[```cruel bot version v1```
+  return 'CRUELBOT '.. VERSION .. [[```cruel bot version v1```
   ```sudo:@cruel0098   m.kh```
   ```sudo2:@Elyasgalikeshi elyas```
   ```sudo3:@Mosy15 mostafa```
@@ -26,8 +26,6 @@ function run(msg, matches)
   ```link support:```@cruel_antispam_bot
   ```channel link:```https://telegram.me/Channel_CRUEL_BoT
   ]]
-  --[[ Checkout https://github.com/Josepdal/DBTeam
-  --GNU GPL v2 license.]]
 end
 
 return {
