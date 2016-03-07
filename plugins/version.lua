@@ -14,7 +14,17 @@
 do
 
 function run(msg, matches)
-  return 'cruel Bot V1 Supergroups\nsudo:@cruel0098   @Elyasgalikeshi   @Mosy15    @Amir_hhh_aaa_ttt \n\nchannel link : https://telegram.me/Channel_CRUEL_BoT\n@MaSkAoS\nsupport group link : @cruel_antispam_bot' 
+  return = [[```cruel bot version v1```
+  ```sudo:@cruel0098   m.kh```
+  ```sudo2:@Elyasgalikeshi elyas```
+  ```sudo3:@Mosy15 mostafa```
+  ```sudo4:@Amir_hhh_aaa_ttt amir```
+  ```sudo4:@BEhZaD_ZEDX mersad```
+  
+  
+  
+  ```link support:```@cruel_antispam_bot
+  ```channel link:```https://telegram.me/Channel_CRUEL_BoT
   --[[ Checkout https://github.com/Josepdal/DBTeam
   --GNU GPL v2 license.]]
 end
