@@ -24,7 +24,7 @@ function run(msg, matches)
   
   
   ```link support:```@cruel_antispam_bot
-  ```channel link:```https://telegram.me/Channel_CRUEL_BoT
+  ```channel link:```https://telegram.me/Channel_CRUEL_BoT]]
   --[[ Checkout https://github.com/Josepdal/DBTeam
   --GNU GPL v2 license.]]
 end
