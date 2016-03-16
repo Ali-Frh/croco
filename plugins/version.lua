@@ -1,30 +1,23 @@
---------------------------------------------------
---      ____  ____ _____                        --
---     |    \|  _ )_   _|___ ____   __  __      --
---     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
---     |____/|____/ |_|\____/\_____|_/\/\_|     --
---                                              --
---------------------------------------------------
---                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
---                                              --
---------------------------------------------------
-
 do
 
 function run(msg, matches)
-  return 'CRUELBOT '.. VERSION .. [[```cruel bot version v1```
-  ```sudo:@cruel0098   m.kh```
-  ```sudo2:@Elyasgalikeshi elyas```
-  ```sudo3:@Mosy15 mostafa```
-  ```sudo4:@Amir_hhh_aaa_ttt amir```
-  ```sudo4:@BEhZaD_ZEDX mersad```
+  return 'CroCodile '.. VERSION .. [[CroCodile V1.8.5 \n
+  Ali.Destroyer(SikTirMirza) [Founder][Coder]
+  @shopbuy
+  Testers :
+  S.Parham
+  Pooria
+  Special Thanks To :
+  M.kh
+  Josepdal
   
-  
-  
-  ```link support:```@cruel_antispam_bot
-  ```channel link:```https://telegram.me/Channel_CRUEL_BoT
+  Please Give We Stars On Github
+  ---||---||---||---
+     \/   \/   \/
+  url :https://github.com/siktirmirza/croco
+  This Bot Not On c9 ! And Have 8 Core Vps
+  Please No Answer About Server Of Bot
+  Chanel Support: @CroCodile_Tg
   ]]
 end
 
