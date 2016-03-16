@@ -1,17 +1,5 @@
---------------------------------------------------
---      ____  ____ _____                        --
---     |    \|  _ )_   _|___ ____   __  __      --
---     | |_  )  _ \ | |/ ·__|  _ \_|  \/  |     --
---     |____/|____/ |_|\____/\_____|_/\/\_|     --
---                                              --
---------------------------------------------------
---                                              --
---       Developers: @Josepdal & @MaSkAoS       --
---     Support: @Skneos,  @iicc1 & @serx666     --
---                                              --
---------------------------------------------------
-
--- Checks if bot was disabled on specific chat
+--SikTirMirza--
+--------------------------------------
 local function is_channel_disabled( receiver )
 	if not _config.disabled_channels then
 		return false
@@ -30,13 +18,13 @@ local function enable_channel(receiver, to_id)
 	end
 
 	if _config.disabled_channels[receiver] == nil then
-		return lang_text(to_id, 'botOn')..' 😏'
+		return lang_text(to_id, 'crocoEnable')..' 😏'
 	end
 	
 	_config.disabled_channels[receiver] = false
 
 	save_config()
-	return lang_text(to_id, 'botOn')..' 😏'
+	return lang_text(to_id, 'crocoEnable')..' 😏'
 end
 
 local function disable_channel(receiver, to_id)
@@ -47,15 +35,14 @@ local function disable_channel(receiver, to_id)
 	_config.disabled_channels[receiver] = true
 
 	save_config()
-	return lang_text(to_id, 'botOff')..' 🚀'
+	return lang_text(to_id, 'crocoDisable')..' 🚀'
 end
 
 local function pre_process(msg)
 	local receiver = get_receiver(msg)
 	
-	-- If sender is sudo then re-enable the channel
 	if is_sudo(msg) then
-	  if msg.text == "#bot on" then
+	  if msg.text == "#croco enable" then
 	    enable_channel(receiver, msg.to.id)
 	  end
 	end
@@ -71,11 +58,11 @@ local function run(msg, matches)
 	if permissions(msg.from.id, msg.to.id, "bot") then
 		local receiver = get_receiver(msg)
 		-- Enable a channel
-		if matches[1] == 'on' then
+		if matches[1] == 'enable' then
 			return enable_channel(receiver, msg.to.id)
 		end
 		-- Disable a channel
-		if matches[1] == 'off' then
+		if matches[1] == 'disable' then
 			return disable_channel(receiver, msg.to.id)
 		end
 	else
@@ -85,8 +72,8 @@ end
 
 return {
 	patterns = {
-		"^bot? (on)",
-		"^bot? (off)" }, 
+		"^croco? (enable)",
+		"^croco? (disable)" }, 
 	run = run,
 	pre_process = pre_process
 }
